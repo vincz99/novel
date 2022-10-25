@@ -1,0 +1,43 @@
+.Div-main{
+  width: 100%;
+margin: 0 auto;
+justify-content: center;
+
+}
+.Div-body {
+  position:relative;
+  width: 13.3%;
+  max-height: 100%;
+  float: left;
+}
+.Title-tag {
+  position: absolute;
+  bottom: 0;
+  background-color: gray;
+  opacity: .8;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+/* .Div-body:nth-child(1) {background-color: blue;}
+.Div-body:nth-child(2) {background-color: green;}
+.Div-body:nth-child(3) {background-color: purple;}
+.Div-body:nth-child(4) {background-color: pink;} */
+
+
+/* smaller screen */
+@media screen and (max-width: 825px) {
+  .Div-main{
+    min-height: 150px;
+    max-width: 100%;
+  margin: 100px auto;
+  }
+  .Div-body {
+    width: 25%;
+    min-height: 250px;
+    float: left;
+    background-color: black;
+
+    }
+}
